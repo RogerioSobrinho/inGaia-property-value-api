@@ -5,8 +5,8 @@ import schemas from './schemas'
 export default {
   openapi: '3.0.0',
   info: {
-    title: 'Square Meter API',
-    description: 'API to get price the square meter',
+    title: 'Property Value API',
+    description: 'API to get value the property',
     version: '1.0.0'
   },
   servers: [{
@@ -14,8 +14,8 @@ export default {
     description: 'Principal Service'
   }],
   tags: [{
-    name: 'square-meter',
-    description: 'APIs related to square meter price'
+    name: 'property-value',
+    description: 'APIs related to property value'
   }],
   paths,
   schemas,

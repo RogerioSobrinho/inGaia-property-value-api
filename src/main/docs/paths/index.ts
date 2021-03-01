@@ -1,1 +1,1 @@
-export * from './square-meter-path'
+export * from './property-value-path'

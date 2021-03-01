@@ -1,5 +1,5 @@
-import { squareMeterPricePath } from './paths/'
+import { propertyValuePath } from './paths/'
 
 export default {
-  '/square-metre/price': squareMeterPricePath
+  '/property-value/{squareMeterQuantity}': propertyValuePath
 }
