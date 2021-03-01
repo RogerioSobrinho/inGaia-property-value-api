@@ -8,7 +8,7 @@
 
 > get value of the property - Challenge InGaia
 
-### ✨ [Demo](https://ingaia-square-meter-api.herokuapp.com/api-docs/)
+### ✨ [Demo](https://ingaia-property-value-api.herokuapp.com/api-docs/)
 
 ## Clean Architecture
 
