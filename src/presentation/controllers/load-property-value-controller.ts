@@ -1,6 +1,6 @@
 import { Controller, HttpResponse } from '@/presentation/protocols'
 import { LoadPropertyValue } from '@/domain/usecases'
-import { badRequest, forbidden, noContent, ok, serverError } from '@/presentation/helpers/http-helper'
+import { badRequest, forbidden, ok, serverError } from '@/presentation/helpers/http-helper'
 import { InvalidParamError, MissingParamError, SquareMeterInvalidError } from '@/presentation/errors'
 
 export class PropertyValueController implements Controller {
