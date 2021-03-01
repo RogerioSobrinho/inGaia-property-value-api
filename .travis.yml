@@ -7,7 +7,7 @@ script:
 deploy:
   provider: heroku
   api_key:
-    secure: ${{ secrets.SECRET_TOKEN }}
-  app: inGaia-property-value-api
+    secure: ${{ secrets.HEROKU_API_KEY }}
+  app: ingaia-property-value-api
   on:
     repo: RogerioSobrinho/inGaia-property-value-api
